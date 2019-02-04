@@ -6,6 +6,6 @@
   
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["alumnos.frro.utn.edu.ar/*"]
+    "matches": ["https://alumnos.frro.utn.edu.ar/*"]
   }]
 }
