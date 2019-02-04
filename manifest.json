@@ -3,4 +3,10 @@
   "version": "1.0",
   "description": "Elimina la imagen de fondo de alumnos.frro.utn.edu.ar",
   "manifest_version": 2
+  
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://blog.lateral.io/*"]
+  }]
 }
